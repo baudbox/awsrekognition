@@ -1,1 +1,1 @@
-# awsrekognition plugin test
+# awsrekognition plugin for jeedom
