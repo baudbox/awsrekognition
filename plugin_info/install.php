@@ -18,16 +18,16 @@
 
 require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
-function template_install() {
+function awsrekognition_install() {
     
 }
 
-function template_update() {
+function awsrekognition_update() {
     
 }
 
 
-function template_remove() {
+function awsrekognition_remove() {
     
 }
 

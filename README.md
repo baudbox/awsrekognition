@@ -1,1 +1,1 @@
-# awsrekognition plugin
+# awsrekognition plugin test

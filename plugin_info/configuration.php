@@ -21,28 +21,32 @@ if (!isConnect()) {
     include_file('desktop', '404', 'php');
     die();
 }
+
 ?>
 <form class="form-horizontal">
     <fieldset>
-        <div class="form-group">
-            <label class="col-lg-4 control-label">{{Global param 1}}</label>
-            <div class="col-lg-2">
-                <input class="configKey form-control" data-l1key="param1" />
+	    <div class="form-group">
+	  		<label class="col-lg-4 control-label">{{Requirements}}</label>
+  			<div class="col-lg-7">
+            Cliquer sur le lien pour lancer l'installation sur votre compte AWS. Region utilisée EU Ireland (eu-west-1)
+			<a href="https://s3-eu-west-1.amazonaws.com/jeedom-awsrekognition-plugin/jeedom-aws-rekognition-plugin-stack.template" target="_new"><img src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png" alt='Launch deployment' /></a>
+			</div>
+	    <div class="form-group">
+  			<label class="col-lg-4 control-label">{{AWS User - ACCESS ID}}</label>
+   			<div class="col-lg-2">
+                <input class="configKey form-control" data-l1key="accessid"  value="80" />
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-4 control-label">{{Global param 2}}</label>
+            <label class="col-lg-4 control-label">{{AWS User - SECRET ID}}</label>
             <div class="col-lg-2">
-                <input class="configKey form-control" data-l1key="param2" value="80" />
+                <input class="configKey form-control" data-l1key="secretid" />
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-4 control-label">{{Global param 2}}</label>
+            <label class="col-lg-4 control-label">{{Path for your pictures}}</label>
             <div class="col-lg-2">
-                <select class="configKey form-control" data-l1key="param3">
-                    <option value="value1">value1</option>
-                    <option value="value2">value2</option>
-                </select>
+                <input class="configKey form-control" data-l1key="pathpictures" />
             </div>
         </div>
   </fieldset>

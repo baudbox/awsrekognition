@@ -1,14 +1,15 @@
 {
-	"id" : "template",
-	"name" : "Template",
-	"description" : "Plugin template pour la création de plugin",
+	"id" : "awsrekognition",
+	"name" : "AWS Rekognition",
+	"description" : "Plugin qui envoie les photos sur AWS Rekognition ",
 	"licence" : "AGPL",
-	"author" : "Loïc",
+	"author" : "Baudouin MARBACH",
 	"require" : "3.0",
-	"category" : "programming",
-	"hasDependency" : false,
+	"version" : "0.1",
+	"category" : "communication",
+	"hasDependency" : true,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://github.com/jeedom/plugin-template/blob/master/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-template/blob/master/doc/#language#/index.asciidoc"
+	"changelog" : "https://github.com/baudbox/awsrekognition/blob/master/doc/fr_FR/changelog.asciidoc",
+	"documentation" : "https://github.com/baudbox/awsrekognition/blob/master/doc/fr_FR/index.asciidoc"
 }
